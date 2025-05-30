@@ -106,7 +106,7 @@ function Coin() {
       setInfo(infoData);
       setPriceInfo(priceData);
     })();
-  }, []);
+  }, [coinId]);
   return (
     <Container>
       <Header>
